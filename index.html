@@ -1,23 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/index.css">
-    <script scr="js/index.js" defer></script> 
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/headers/">
     <!-- defer는 바디를 다 읽고 읽어라라는 뜻 -->
+    <style>
+        body {
+            height: 3000px;
+        }
+    </style>
 </head>
+
 <body>
-    <h2>어서오세요~~</h2>
-    <a href="save.html">회원가입</a>
-    <button onclick="goLogin()">로그인</button>
-    <button onclick="fun1()">함수호출</button>
+    <div id="img1">
+        <img src="../image/개발자(1).png" alt="" id="img1"><br>
+        <h5 id="name">최도영</h5>
+        <h6 type="text" id="img1p">Developer</h6>
+    </div><br> <br> <br> <br> <br>
+
+    <ul id="menufix">
+        <li>
+            <a href="#" id="portfolio">Portfolio</a>
+        </li>
+        <li>
+            <a href="#" id="resume">Resume</a>
+        </li>
+        <li>
+            <a href="#" id="contack">Contact</a>
+        </li>
+
+    </ul>
+
 </body>
 <script>
     const goLogin = () => {
-        location.href ="login.html";
+        location.href = "login.html";
     }
+
 </script>
+
 </html>

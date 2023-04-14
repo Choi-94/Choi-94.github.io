@@ -1,3 +1,54 @@
 a {
     text-decoration: none;
 }
+
+#img1 {
+    text-align: center;
+    margin: 50px;
+    height: 200px;
+}
+
+#img1p {
+    color: #337AB7;
+    font-weight: bold;
+}
+
+#name {
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    border-bottom: solid gray;
+    display: inline-block;
+    margin-left: 205px;
+    padding: 10px 100px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    
+}
+
+#menufix {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+li a:hover {
+    background-color: skyblue;
+}
+
+.active {
+    background-color: brown;
+}
