@@ -30,7 +30,7 @@ li {
 li a {
     border-bottom: solid gray;
     display: inline-block;
-    margin-left: 205px;
+    margin-left: 165px;
     padding: 10px 100px;
     text-align: center;
     text-decoration: none;
@@ -53,6 +53,30 @@ li a:hover {
     background-color: brown;
 }
 #portfolio{
-    margin-left: 150px;
+    width: 30%;
+    float: left;
+    margin-left: 350px;
+    box-sizing: border-box;
+}
+#portfoliomenu{
+    width: 100%;
 }
 
+#img2{
+    border-radius: 70%;
+    overflow: hidden;
+    width: 79px;
+}
+#portfolio2{
+    margin-left: 350px;
+}
+#imgjava{
+    border-radius: 70%;
+    overflow: hidden;
+    width: 30px;
+}
+#imgjavascript{
+    border-radius: 70%;
+    overflow: hidden;
+    width: 30px;
+}
