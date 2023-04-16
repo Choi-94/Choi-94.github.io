@@ -89,5 +89,18 @@ li a:hover {
     border-radius: 70%;
     overflow: hidden;
     width: 30px;
+}
+#portfolio3{
+    margin-left: 350px;
+    position: relative;
+}
+#imgjoin{
+    width: 35%;
     
+    
+}
+#jointext{
+    position: absolute;
+    top: 90%;
+    left: 10%;
 }
