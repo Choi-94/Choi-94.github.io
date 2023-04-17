@@ -1,3 +1,19 @@
+header:after {
+    background-image: url(../image/배경사진.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0.5 !important;
+    z-index: -1;
+    content: "";
+    width: 100%;
+    height: 100%;
+  }
+
 a {
     text-decoration: none;
 }
@@ -95,12 +111,25 @@ li a:hover {
     position: relative;
 }
 #imgjoin{
-    width: 35%;
-    
-    
+    width: 35%;   
 }
 #jointext{
     position: absolute;
     top: 90%;
     left: 10%;
+}
+#subaimg{
+    width: 30%;
+}   
+#portfolioactivity{
+    margin-left: 350px;
+    position: relative;
+}
+#subatext{
+    position: absolute;
+    top: 100%;
+    left: 9%;
+}
+#resume{
+    margin-left: 350px;
 }
