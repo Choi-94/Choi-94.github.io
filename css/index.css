@@ -1,12 +1,12 @@
 header:after {
-    background-image: url(../image/배경사진.jpeg);
+    background-image: url(../image/배경화면2.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: local;
     top: 0;
     left: 0;
-    position: absolute;
+    position: fixed;
     opacity: 0.5 !important;
     z-index: -1;
     content: "";
@@ -130,6 +130,31 @@ li a:hover {
     top: 100%;
     left: 9%;
 }
-#resume{
+#myself{
     margin-left: 350px;
+}
+#myselfactivity{
+    margin-left: 25%;
+}
+#myselfactivitytext1{
+    margin-left: 20%;
+}
+#myselfactivitytext2{
+    margin-left: 5%;
+}
+#myselfactivitytext3{
+    margin-left: 5%;
+}
+#myselfactivitytext4{
+    margin-left: 20%;
+}
+#myselfactivitytext5{
+    margin-left: 25%;
+}
+#contact{
+    margin-left: 25%;
+}
+#sel{
+    width: 12%;
+    margin-left: 0%;
 }
