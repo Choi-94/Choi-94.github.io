@@ -59,7 +59,7 @@ li a {
 #menufix {
     position: fixed;
     top: 0%;
-    width: 100%;
+    margin-left: 0%;
     z-index: 1;
 }
 
